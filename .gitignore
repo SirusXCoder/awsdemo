@@ -1,0 +1,37 @@
+env/*
+.idea/*
+.DS_Store
+
+__pycache__/
+*.py[cod]
+
+build/
+dist/
+sdist/
+.eggs/
+*.egg-info/
+
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+*.db
+
+# Sphinx documentation
+docs/_build/
+
+/vdev
+copy_to_web_server.sh
+db.sqlite3
+/static
