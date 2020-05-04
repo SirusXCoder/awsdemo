@@ -6,16 +6,16 @@ SECRET_KEY = 'jc!02(v1r1*=%8fjs5-@_h*fhp=g_$&tx9dy*sg_jv&y$o!1($!g'
 DEBUG = True
 
 # '*' for all allowed hosts
-ALLOWED_HOSTS = ['*','10.148.72.193']
+ALLOWED_HOSTS = ['*']
 
 # RDS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bpdb',
-        'HOST': 'devbpdb.cjijufb0sfjq.us-west-2.rds.amazonaws.com',
-        'USER': 'bpdbuser',
-        'PASSWORD': 'Blaize12#',
+        'NAME': 'awsdemo_db',
+        'HOST': 'django-aws-demo.cvvl8zxdxncv.us-west-1.rds.amazonaws.com',
+        'USER': 'awsdemouser',
+        'PASSWORD': 'awsdemouser',
         'PORT': '5432',
     }
 }
@@ -23,6 +23,6 @@ DATABASES = {
 # Email Config
 EMAIL_HOST = 'smtp.office365.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'bpdb@blaize.com'
+EMAIL_HOST_USER = 'acme@gmail.com'
 EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
