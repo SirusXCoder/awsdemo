@@ -128,7 +128,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'collectstatic')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
+    os.path.join(BASE_DIR, 'Testproject/static')
 ]
 
 # local_settings.py file is only for Production deployment.
